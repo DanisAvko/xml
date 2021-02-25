@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mouses>
+    <mouse id="1">
+        <titles>
+            <title data-id="1">Шариковая</title>
+            <title data-id="2">Механическая</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">PC/2</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+    <mouse id="2">
+        <titles>
+            <title data-id="1">Светодиодная</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+                <connection-type data-id="2">Нет провода</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">Bluetooth</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+    <mouse id="3">
+        <titles>
+            <title id="1">Лазерная</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+                <connection-type data-id="2">Нет провода</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">Bluetooth</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+    <mouse id="4">
+        <titles>
+            <title data-id="1">Трекбол</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">PC/2</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+    <mouse id="5">
+        <titles>
+            <title data-id="1">Индукционная</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">PC/2</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+    <mouse id="6">
+        <titles>
+            <title data-id="1">Гироскопическая</title>
+        </titles>
+        <characteristic>
+            <connection-types>
+                <connection-type data-id="1">Провод</connection-type>
+                <connection-type data-id="1">Нет провод</connection-type>
+            </connection-types>
+            <connection-interfaces>
+                <connection-interface data-id="1">USB</connection-interface>
+                <connection-interface data-id="2">PC/2</connection-interface>
+                <connection-interface data-id="3">Bluetooth</connection-interface>
+            </connection-interfaces>
+        </characteristic>
+    </mouse>
+</mouses>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<acct:customers xmlns:acct="http://www.my.com/acct-REV10" >
+    <acct:customer>
+        <acct:name>Corporation 1</acct:name>
+        <acct:status>active</acct:status>
+        <acct2:customers xmlns:acct2="http://www.my.com/acct-REV10">
+            <acct:customer>
+                <acct:name>Corporation 22</acct:name>
+                <acct:status>inactive</acct:status>
+            </acct:customer>
+        </acct2:customers>
+    </acct:customer>
+    <acct:customer>
+        <acct:name>Corporation 2</acct:name>
+        <acct:status>inactive</acct:status>
+    </acct:customer>
+    <acct:customer>
+        <acct:name>Corporation 3</acct:name>
+        <acct:status>active</acct:status>
+        <acct2:customers xmlns:acct2="http://www.my.com/acct-REV10">
+            <acct:customer>
+                <acct:name>Corporation 22</acct:name>
+                <acct:status>inactive</acct:status>
+            </acct:customer>
+            <acct:customer>
+                <acct:name>Corporation 44</acct:name>
+                <acct:status>active</acct:status>
+            </acct:customer>
+        </acct2:customers>
+    </acct:customer>
+    <acct:customer>
+        <acct:name>Corporation 4</acct:name>
+        <acct:status>inactive</acct:status>
+    </acct:customer>
+</acct:customers>

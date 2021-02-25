@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<university>
+    <title>Веб технологии для математика</title>
+    <students>
+        <student id="1">
+            <lastname>Нигматуллина</lastname>
+            <name>Зиля</name>
+            <age>21</age>
+            <subjects>
+                <subject id="1">
+                    <name>Матан</name>
+                </subject>
+                <subject id="2">
+                    <name>Дискр.мат.</name>
+                </subject>
+                <subject id="3">
+                    <name>Функ.ан.</name>
+                </subject>
+            </subjects>
+        </student>
+        <student id="2">
+            <lastname>Шамратов</lastname>
+            <name>Ахун</name>
+            <age>21</age>
+            <subjects>
+                <subject id="1">
+                    <name>Дискр.мат.</name>
+                </subject>
+                <subject id="2">
+                    <name>Функ.ан.</name>
+                </subject>
+            </subjects>
+        </student>
+        <student id="3">
+            <lastname>Хусаинова</lastname>
+            <name>Лилия</name>
+            <age>21</age>
+            <subjects>
+                <subject id="1">
+                    <name>Матан</name>
+                </subject>
+                <subject id="2">
+                    <name>Дискр.мат.</name>
+                </subject>
+                <subject id="3">
+                    <name>Функ.ан.</name>
+                </subject>
+                <subject id="4">
+                    <name>Русский</name>
+                </subject>
+            </subjects>
+        </student>
+        <student id="4">
+            <lastname>Салимов</lastname>
+            <name>Ринат</name>
+            <age>21</age>
+            <subjects>
+                <subject id="1">
+                    <name>Матан</name>
+                </subject>
+                <subject id="2">
+                    <name>Функ.ан.</name>
+                </subject>
+            </subjects>
+        </student>
+        <student id="5">
+            <lastname>Тутынина</lastname>
+            <name>Валерия</name>
+            <age>21</age>
+            <subjects>
+                <subject id="1">
+                    <name>Матан</name>
+                </subject>
+<!--                comment-->
+                <subject id="2">
+                    <name>Дискр.мат.</name>
+                </subject>
+            </subjects>
+        </student>
+    </students>
+</university>
