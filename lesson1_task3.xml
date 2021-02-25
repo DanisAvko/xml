@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mouses SYSTEM "../dtd/lesson1_task3.dtd">
 <!--Лучшее ХЕМЕЭЛЬ Описание комп мышек-->
 <mouses>
     <mouse id="1">
@@ -11,10 +12,17 @@
                 <connection-type data-id="1">Провод</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">PC/2</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Sven</manufacturer>
+            <manufacturer data-id="2">Konoos</manufacturer>
+            <manufacturer data-id="3">Perfeo</manufacturer>
+            <manufacturer data-id="4">Marvo</manufacturer>
+            <manufacturer data-id="5">Genius</manufacturer>
+        </manufacturers>
     </mouse>
     <mouse id="2">
         <titles>
@@ -26,14 +34,22 @@
                 <connection-type data-id="2">Нет провода</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">Bluetooth</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Sven</manufacturer>
+            <manufacturer data-id="2">Konoos</manufacturer>
+            <manufacturer data-id="3">Defender</manufacturer>
+            <manufacturer data-id="4">Marvo</manufacturer>
+            <manufacturer data-id="5">Logitech</manufacturer>
+            <manufacturer data-id="6">A4tech</manufacturer>
+        </manufacturers>
     </mouse>
     <mouse id="3">
         <titles>
-            <title id="1">Лазерная</title>
+            <title data-id="1">Лазерная</title>
         </titles>
         <characteristic>
             <connection-types>
@@ -41,10 +57,17 @@
                 <connection-type data-id="2">Нет провода</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">Bluetooth</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Sven</manufacturer>
+            <manufacturer data-id="2">Konoos</manufacturer>
+            <manufacturer data-id="3">Defender</manufacturer>
+            <manufacturer data-id="4">Marvo</manufacturer>
+            <manufacturer data-id="5">Gamdias</manufacturer>
+        </manufacturers>
     </mouse>
     <mouse id="4">
         <titles>
@@ -55,10 +78,17 @@
                 <connection-type data-id="1">Провод</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">PC/2</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Sven</manufacturer>
+            <manufacturer data-id="2">Konoos</manufacturer>
+            <manufacturer data-id="3">Defender</manufacturer>
+            <manufacturer data-id="4">Marvo</manufacturer>
+            <manufacturer data-id="5">Gamdias</manufacturer>
+        </manufacturers>
     </mouse>
     <mouse id="5">
         <titles>
@@ -69,10 +99,15 @@
                 <connection-type data-id="1">Провод</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">PC/2</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Sven</manufacturer>
+            <manufacturer data-id="2">Marvo</manufacturer>
+            <manufacturer data-id="3">Gamdias</manufacturer>
+        </manufacturers>
     </mouse>
     <mouse id="6">
         <titles>
@@ -84,10 +119,15 @@
                 <connection-type data-id="2">Нет провода</connection-type>
             </connection-types>
             <connection-interfaces>
-                <connection-interface data-id="1">USB</connection-interface>
-                <connection-interface data-id="2">PC/2</connection-interface>
-                <connection-interface data-id="3">Bluetooth</connection-interface>
+                <connection-interface data-id="1" ref="1">USB</connection-interface>
+                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
+                <connection-interface data-id="3" ref="2">Bluetooth</connection-interface>
             </connection-interfaces>
         </characteristic>
+        <manufacturers>
+            <manufacturer data-id="1">Defender</manufacturer>
+            <manufacturer data-id="2">Marvo</manufacturer>
+            <manufacturer data-id="3">Gamdias</manufacturer>
+        </manufacturers>
     </mouse>
 </mouses>

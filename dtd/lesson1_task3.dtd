@@ -1,0 +1,34 @@
+<!--ELEMENTS-->
+<!ELEMENT mouses (mouse*)>
+<!ELEMENT mouse (titles, characteristic, manufacturers)>
+
+<!ELEMENT titles (title+)>
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT characteristic (connection-types?, connection-interfaces?)>
+<!ELEMENT connection-types (connection-type+)>
+<!ELEMENT connection-interfaces (connection-interface+)>
+
+<!ELEMENT manufacturers (manufacturer+)>
+<!ELEMENT manufacturer (#PCDATA)>
+
+<!ELEMENT connection-type (#PCDATA)>
+<!ELEMENT connection-interface (#PCDATA)>
+
+<!--ATTS-->
+<!ATTLIST mouse
+    id CDATA#REQUIRED
+>
+<!ATTLIST title
+    data-id CDATA#REQUIRED
+>
+<!ATTLIST connection-type
+    data-id CDATA#REQUIRED
+>
+<!ATTLIST connection-interface
+    data-id CDATA#REQUIRED
+    ref CDATA#REQUIRED
+>
+<!ATTLIST manufacturer
+    data-id CDATA#REQUIRED
+>
