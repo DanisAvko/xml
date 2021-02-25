@@ -81,7 +81,7 @@
         <characteristic>
             <connection-types>
                 <connection-type data-id="1">Провод</connection-type>
-                <connection-type data-id="1">Нет провод</connection-type>
+                <connection-type data-id="2">Нет провода</connection-type>
             </connection-types>
             <connection-interfaces>
                 <connection-interface data-id="1">USB</connection-interface>
