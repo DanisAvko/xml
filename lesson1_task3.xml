@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type='text/xsl' href='./xsl/lesson1_task3.xsl' ?>
 <!DOCTYPE mouses SYSTEM "../dtd/lesson1_task3.dtd">
 <!--Лучшее ХЕМЕЭЛЬ Описание комп мышек-->
 <mouses>
@@ -17,11 +18,11 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Sven</manufacturer>
-            <manufacturer data-id="2">Konoos</manufacturer>
-            <manufacturer data-id="3">Perfeo</manufacturer>
-            <manufacturer data-id="4">Marvo</manufacturer>
-            <manufacturer data-id="5">Genius</manufacturer>
+            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+            <manufacturer data-id="2" officialUrl="konoos.com">Konoos</manufacturer>
+            <manufacturer data-id="3" officialUrl="perfeo.vm">Perfeo</manufacturer>
+            <manufacturer data-id="4" officialUrl="marvo.em">Marvo</manufacturer>
+            <manufacturer data-id="5" officialUrl="genius.py">Genius</manufacturer>
         </manufacturers>
     </mouse>
     <mouse id="2">
@@ -39,12 +40,12 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Sven</manufacturer>
-            <manufacturer data-id="2">Konoos</manufacturer>
-            <manufacturer data-id="3">Defender</manufacturer>
-            <manufacturer data-id="4">Marvo</manufacturer>
-            <manufacturer data-id="5">Logitech</manufacturer>
-            <manufacturer data-id="6">A4tech</manufacturer>
+            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+            <manufacturer data-id="5" officialUrl="logitech.ru">Logitech</manufacturer>
+            <manufacturer data-id="6" officialUrl="f4tech.ru">A4tech</manufacturer>
         </manufacturers>
     </mouse>
     <mouse id="3">
@@ -62,11 +63,11 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Sven</manufacturer>
-            <manufacturer data-id="2">Konoos</manufacturer>
-            <manufacturer data-id="3">Defender</manufacturer>
-            <manufacturer data-id="4">Marvo</manufacturer>
-            <manufacturer data-id="5">Gamdias</manufacturer>
+            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+            <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
         </manufacturers>
     </mouse>
     <mouse id="4">
@@ -83,11 +84,11 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Sven</manufacturer>
-            <manufacturer data-id="2">Konoos</manufacturer>
-            <manufacturer data-id="3">Defender</manufacturer>
-            <manufacturer data-id="4">Marvo</manufacturer>
-            <manufacturer data-id="5">Gamdias</manufacturer>
+            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+            <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
         </manufacturers>
     </mouse>
     <mouse id="5">
@@ -104,9 +105,9 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Sven</manufacturer>
-            <manufacturer data-id="2">Marvo</manufacturer>
-            <manufacturer data-id="3">Gamdias</manufacturer>
+            <manufacturer data-id="1" officialUrl="Sven.ru">Sven</manufacturer>
+            <manufacturer data-id="2" officialUrl="marvo.vb">Marvo</manufacturer>
+            <manufacturer data-id="3" officialUrl="gamdias.lb">Gamdias</manufacturer>
         </manufacturers>
     </mouse>
     <mouse id="6">
@@ -125,9 +126,9 @@
             </connection-interfaces>
         </characteristic>
         <manufacturers>
-            <manufacturer data-id="1">Defender</manufacturer>
-            <manufacturer data-id="2">Marvo</manufacturer>
-            <manufacturer data-id="3">Gamdias</manufacturer>
+            <manufacturer data-id="1" officialUrl="defender.vb">Defender</manufacturer>
+            <manufacturer data-id="2" officialUrl="marvo.sd">Marvo</manufacturer>
+            <manufacturer data-id="3" officialUrl="gamdias.fg">Gamdias</manufacturer>
         </manufacturers>
     </mouse>
 </mouses>

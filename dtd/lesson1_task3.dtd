@@ -31,4 +31,5 @@
 >
 <!ATTLIST manufacturer
     data-id CDATA#REQUIRED
+    officialUrl CDATA#PCDATA
 >
