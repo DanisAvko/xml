@@ -1,4 +1,7 @@
 <!--ELEMENTS-->
+<!ELEMENT content (mouses, meta)>
+<!ELEMENT meta (img)>
+<!ELEMENT img (EMPTY)>
 <!ELEMENT mouses (mouse*)>
 <!ELEMENT mouse (titles, characteristic, manufacturers)>
 
@@ -32,4 +35,10 @@
 <!ATTLIST manufacturer
     data-id CDATA#REQUIRED
     officialUrl CDATA#PCDATA
+>
+<!ATTLIST img
+    height CDATA#REQUIRED
+    width CDATA#REQUIRED
+    alt CDATA#REQUIRED
+    src CDATA#REQUIRED
 >

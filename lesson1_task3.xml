@@ -1,134 +1,139 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <?xml-stylesheet type='text/xsl' href='./xsl/lesson1_task3.xsl' ?>
-<!DOCTYPE mouses SYSTEM "../dtd/lesson1_task3.dtd">
+<!DOCTYPE content SYSTEM "./dtd/lesson1_task3.dtd">
 <!--Лучшее ХЕМЕЭЛЬ Описание комп мышек-->
-<mouses>
-    <mouse id="1">
-        <titles>
-            <title data-id="1">Шариковая</title>
-            <title data-id="2">Механическая</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
-            <manufacturer data-id="2" officialUrl="konoos.com">Konoos</manufacturer>
-            <manufacturer data-id="3" officialUrl="perfeo.vm">Perfeo</manufacturer>
-            <manufacturer data-id="4" officialUrl="marvo.em">Marvo</manufacturer>
-            <manufacturer data-id="5" officialUrl="genius.py">Genius</manufacturer>
-        </manufacturers>
-    </mouse>
-    <mouse id="2">
-        <titles>
-            <title data-id="1">Светодиодная</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-                <connection-type data-id="2">Нет провода</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
-            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
-            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
-            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
-            <manufacturer data-id="5" officialUrl="logitech.ru">Logitech</manufacturer>
-            <manufacturer data-id="6" officialUrl="f4tech.ru">A4tech</manufacturer>
-        </manufacturers>
-    </mouse>
-    <mouse id="3">
-        <titles>
-            <title data-id="1">Лазерная</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-                <connection-type data-id="2">Нет провода</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
-            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
-            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
-            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
-            <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
-        </manufacturers>
-    </mouse>
-    <mouse id="4">
-        <titles>
-            <title data-id="1">Трекбол</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
-            <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
-            <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
-            <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
-            <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
-        </manufacturers>
-    </mouse>
-    <mouse id="5">
-        <titles>
-            <title data-id="1">Индукционная</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="Sven.ru">Sven</manufacturer>
-            <manufacturer data-id="2" officialUrl="marvo.vb">Marvo</manufacturer>
-            <manufacturer data-id="3" officialUrl="gamdias.lb">Gamdias</manufacturer>
-        </manufacturers>
-    </mouse>
-    <mouse id="6">
-        <titles>
-            <title data-id="1">Гироскопическая</title>
-        </titles>
-        <characteristic>
-            <connection-types>
-                <connection-type data-id="1">Провод</connection-type>
-                <connection-type data-id="2">Нет провода</connection-type>
-            </connection-types>
-            <connection-interfaces>
-                <connection-interface data-id="1" ref="1">USB</connection-interface>
-                <connection-interface data-id="2" ref="1">PC/2</connection-interface>
-                <connection-interface data-id="3" ref="2">Bluetooth</connection-interface>
-            </connection-interfaces>
-        </characteristic>
-        <manufacturers>
-            <manufacturer data-id="1" officialUrl="defender.vb">Defender</manufacturer>
-            <manufacturer data-id="2" officialUrl="marvo.sd">Marvo</manufacturer>
-            <manufacturer data-id="3" officialUrl="gamdias.fg">Gamdias</manufacturer>
-        </manufacturers>
-    </mouse>
-</mouses>
+<content>
+    <meta>
+        <img width="150" height="150" alt="mouse" src="./img/mouse2.jpg"/>
+    </meta>
+    <mouses>
+        <mouse id="1">
+            <titles>
+                <title data-id="1">Шариковая</title>
+                <title data-id="2">Механическая</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="1">PC/2</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+                <manufacturer data-id="2" officialUrl="konoos.com">Konoos</manufacturer>
+                <manufacturer data-id="3" officialUrl="perfeo.vm">Perfeo</manufacturer>
+                <manufacturer data-id="4" officialUrl="marvo.em">Marvo</manufacturer>
+                <manufacturer data-id="5" officialUrl="genius.py">Genius</manufacturer>
+            </manufacturers>
+        </mouse>
+        <mouse id="2">
+            <titles>
+                <title data-id="1">Светодиодная</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                    <connection-type data-id="2">Нет провода</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+                <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+                <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+                <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+                <manufacturer data-id="5" officialUrl="logitech.ru">Logitech</manufacturer>
+                <manufacturer data-id="6" officialUrl="f4tech.ru">A4tech</manufacturer>
+            </manufacturers>
+        </mouse>
+        <mouse id="3">
+            <titles>
+                <title data-id="1">Лазерная</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                    <connection-type data-id="2">Нет провода</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="2">Bluetooth</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+                <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+                <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+                <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+                <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
+            </manufacturers>
+        </mouse>
+        <mouse id="4">
+            <titles>
+                <title data-id="1">Трекбол</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="1">PC/2</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="sven.ru">Sven</manufacturer>
+                <manufacturer data-id="2" officialUrl="konoos.ru">Konoos</manufacturer>
+                <manufacturer data-id="3" officialUrl="defender.ru">Defender</manufacturer>
+                <manufacturer data-id="4" officialUrl="marvo.ru">Marvo</manufacturer>
+                <manufacturer data-id="5" officialUrl="gamdias.bv">Gamdias</manufacturer>
+            </manufacturers>
+        </mouse>
+        <mouse id="5">
+            <titles>
+                <title data-id="1">Индукционная</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="1">PC/2</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="Sven.ru">Sven</manufacturer>
+                <manufacturer data-id="2" officialUrl="marvo.vb">Marvo</manufacturer>
+                <manufacturer data-id="3" officialUrl="gamdias.lb">Gamdias</manufacturer>
+            </manufacturers>
+        </mouse>
+        <mouse id="6">
+            <titles>
+                <title data-id="1">Гироскопическая</title>
+            </titles>
+            <characteristic>
+                <connection-types>
+                    <connection-type data-id="1">Провод</connection-type>
+                    <connection-type data-id="2">Нет провода</connection-type>
+                </connection-types>
+                <connection-interfaces>
+                    <connection-interface data-id="1" ref="1">USB</connection-interface>
+                    <connection-interface data-id="2" ref="1">PC/2</connection-interface>
+                    <connection-interface data-id="3" ref="2">Bluetooth</connection-interface>
+                </connection-interfaces>
+            </characteristic>
+            <manufacturers>
+                <manufacturer data-id="1" officialUrl="defender.vb">Defender</manufacturer>
+                <manufacturer data-id="2" officialUrl="marvo.sd">Marvo</manufacturer>
+                <manufacturer data-id="3" officialUrl="gamdias.fg">Gamdias</manufacturer>
+            </manufacturers>
+        </mouse>
+    </mouses>
+</content>
