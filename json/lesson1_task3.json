@@ -1,0 +1,176 @@
+{
+  "content": {
+    "meta": {
+      "img": {
+        "width": "150",
+        "height": "150",
+        "alt": "mouse",
+        "src": "./img/mouse2.jpg"
+      }
+    },
+    "mouses": {
+      "mouse": [
+        {
+          "titles": {
+            "title": [
+              "Шариковая",
+              "Механическая"
+            ]
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": "Провод"
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "PC/2"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Sven",
+              "Konoos",
+              "Perfeo",
+              "Marvo",
+              "Genius"
+            ]
+          }
+        },
+        {
+          "titles": {
+            "title": "Светодиодная"
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": [
+                "Провод",
+                "Нет провода"
+              ]
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "Bluetooth"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Sven",
+              "Konoos",
+              "Defender",
+              "Marvo",
+              "Logitech",
+              "A4tech"
+            ]
+          }
+        },
+        {
+          "titles": {
+            "title": "Лазерная"
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": [
+                "Провод",
+                "Нет провода"
+              ]
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "Bluetooth"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Sven",
+              "Konoos",
+              "Defender",
+              "Marvo",
+              "Gamdias"
+            ]
+          }
+        },
+        {
+          "titles": {
+            "title": "Трекбол"
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": "Провод"
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "PC/2"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Sven",
+              "Konoos",
+              "Defender",
+              "Marvo",
+              "Gamdias"
+            ]
+          }
+        },
+        {
+          "titles": {
+            "title": "Индукционная"
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": "Провод"
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "PC/2"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Sven",
+              "Marvo",
+              "Gamdias"
+            ]
+          }
+        },
+        {
+          "titles": {
+            "title": "Гироскопическая"
+          },
+          "characteristic": {
+            "connection-types": {
+              "connection-type": [
+                "Провод",
+                "Нет провода"
+              ]
+            },
+            "connection-interfaces": {
+              "connection-interface": [
+                "USB",
+                "PC/2",
+                "Bluetooth"
+              ]
+            }
+          },
+          "manufacturers": {
+            "manufacturer": [
+              "Defender",
+              "Marvo",
+              "Gamdias"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
